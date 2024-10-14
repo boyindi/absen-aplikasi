@@ -51,10 +51,10 @@ class _LoginScreenState extends State<LoginScreen> {
                   children: [
                     Image(
                       image: AssetImage(
-                        'lib/images/Inspace New Logo.gif',
+                        'lib/images/download__10_-removebg-preview.png',
                       ),
                       width: 200,
-                      height: 210,
+                      height: 200,
                       fit: BoxFit.cover,
                     ),
                     Text(
