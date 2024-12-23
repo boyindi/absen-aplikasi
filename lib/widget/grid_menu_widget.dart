@@ -15,6 +15,8 @@ class GridMenuWidget extends StatelessWidget {
     'lib/images/news (2).png',
   ];
 
+  GridMenuWidget({super.key});
+
   @override
   Widget build(BuildContext context) {
     return GridView.builder(

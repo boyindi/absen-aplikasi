@@ -41,6 +41,7 @@ dependencies:
   card_swiper: ^3.0.1
   path_provider: ^2.1.4
   mask_text_input_formatter: ^2.9.0
+  sqflite: ^2.4.1
 
 dev_dependencies:
   flutter_test:

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:absen_modul/widget/absensi_from_widget.dart';
 
 class AbsensiScreen extends StatefulWidget {
-  const AbsensiScreen({Key? key}) : super(key: key);
+  const AbsensiScreen({super.key});
 
   @override
   State<AbsensiScreen> createState() => _AbsensiScreenState();

@@ -4,10 +4,11 @@ class BottomNavigationBarWidget extends StatefulWidget {
   final Function(int) onTabSelected;
   final int currentIndex;
 
-  BottomNavigationBarWidget(
-      {required this.onTabSelected, required this.currentIndex});
+  const BottomNavigationBarWidget(
+      {super.key, required this.onTabSelected, required this.currentIndex});
 
   @override
+  // ignore: library_private_types_in_public_api
   _BottomNavigationBarWidgetState createState() =>
       _BottomNavigationBarWidgetState();
 }

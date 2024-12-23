@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:absen_modul/screens/home_screen.dart'; // Ganti dengan path yang benar ke HomePage Anda
 
 class LoginScreen extends StatefulWidget {
-  const LoginScreen({Key? key}) : super(key: key);
+  const LoginScreen({super.key});
 
   @override
   State<LoginScreen> createState() => _LoginScreenState();

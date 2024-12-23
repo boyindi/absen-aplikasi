@@ -7,8 +7,7 @@ import 'package:path/path.dart' as path;
 class CameraInput extends StatefulWidget {
   final Function(File) onImageSelected;
 
-  const CameraInput({required this.onImageSelected, Key? key})
-      : super(key: key);
+  const CameraInput({required this.onImageSelected, super.key});
 
   @override
   _CameraInputState createState() => _CameraInputState();
@@ -50,8 +49,8 @@ class _CameraInputState extends State<CameraInput> {
           ),
         ElevatedButton.icon(
           onPressed: _pickImage,
-          icon: Icon(Icons.camera_alt),
-          label: Text('Ambil Foto'),
+          icon: const Icon(Icons.camera_alt),
+          label: const Text('Ambil Foto'),
         ),
       ],
     );

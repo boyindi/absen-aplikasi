@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:absen_modul/widget/izincuti_from_widget.dart';
 
 class IzincutiScreen extends StatefulWidget {
-  const IzincutiScreen({Key? key}) : super(key: key);
+  const IzincutiScreen({super.key});
 
   @override
   State<IzincutiScreen> createState() => _IzincutiScreenState();

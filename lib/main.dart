@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
           const LoginScreen(), // Nama kelas harus konsisten dengan yang ada di file login_Screen.dart
       routes: {
         '/absensi': (context) => const AbsensiScreen(),
-        '/izincuti': (context) => IzincutiScreen(),
+        '/izincuti': (context) => const IzincutiScreen(),
         '/pengumuman': (context) => const PengumumanScreen(),
         '/slipgaji': (context) => const SlipGajiScreen(),
         // '/PaymentPage': (context) => PaymentPage(),
