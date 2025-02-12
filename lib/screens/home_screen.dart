@@ -31,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: const Text(
           'Home Screen',
-        ), // Menampilkan AppBar dengan judul
+        ), // 
       ),
       body: SingleChildScrollView(
         child: Column(

@@ -10,6 +10,8 @@ class CarouselWidget extends StatelessWidget {
     'lib/images/13.jpg',
   ];
 
+CarouselWidget({super.key});
+
   @override
   Widget build(BuildContext context) {
     return SizedBox(

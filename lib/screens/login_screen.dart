@@ -16,12 +16,10 @@ class _LoginScreenState extends State<LoginScreen> {
   void _login() {
     String email = emailController.text;
     String password = passwordController.text;
-
-    // Hardcoded email dan password untuk validasi
     const correctEmail = 'admin';
     const correctPassword = 'admin123';
 
-    // Lakukan validasi sederhana
+    
     if (email == correctEmail && password == correctPassword) {
       // Jika login berhasil, navigasikan ke HomePage
       Navigator.pushReplacement(
@@ -117,7 +115,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                     onPressed: () {
                       setState(() {
-                        isPasswordVisible = !isPasswordVisible;
+                        isPasswordVisible = !isPasswordVisible; 
                       });
                     },
                   ),
@@ -127,7 +125,7 @@ class _LoginScreenState extends State<LoginScreen> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Row(
+                  Row( 
                     children: [
                       Checkbox(
                         value: true,
